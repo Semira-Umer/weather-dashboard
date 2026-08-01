@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="stylee.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Search Section -->
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Search city...">
+      <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div id="loading" class="loading">Loading weather...</div>
+    <div id="error" class="error"></div>
+    <div id="weatherCard" class="weather-card">
+      <h1 id="cityName">City</h1>
+      <div id="weatherIcon" class="weather-icon">☀️</div>
+       <h2 id="temperature">0°C</h2>
+       <p id="condition">Clear Sky</p>
+
+        <div class="details">
+
+            <div class="detail-box">
+               <i class="fa-solid fa-droplet"></i>
+               <h3>Humidity</h3>
+               <p id="humidity">0%</p>
+            </div>
+
+            <div class="detail-box">
+              <i class="fa-solid fa-wind"></i>
+              <h3>Wind</h3>
+              <p id="wind">0 km/h</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2 class="forecast-title">5-Day Forecast</h2>
+
+    <div id="forecast" class="forecast"></div>
+
+</div>
+<script src="scriptt.js"></script>
+
+</body>
+</html>
