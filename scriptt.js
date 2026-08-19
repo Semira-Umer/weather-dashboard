@@ -13,23 +13,23 @@ const error = document.getElementById("error");
 const forecast = document.getElementById("forecast");
 
 const weatherIcons = {
-    0: "☀️",
-    1: "🌤️",
-    2: "⛅",
-    3: "☁️",
-    45: "🌫️",
-    48: "🌫️",
-    51: "🌦️",
-    53: "🌦️",
-    55: "🌧️",
-    61: "🌧️",
-    63: "🌧️",
-    65: "⛈️",
-    71: "❄️",
-    80: "🌦️",
-    81: "🌧️",
-    82: "⛈️",
-    95: "⛈️"
+    0: "fa-solid fa-sun",
+    1: "fa-solid fa-cloud-sun",
+    2: "fa-solid fa-cloud",
+    3: "fa-solid fa-cloud",
+    45: "fa-solid fa-smog",
+    48: "fa-solid fa-smog",
+    51: "fa-solid fa-cloud-rain",
+    53: "fa-solid fa-cloud-rain",
+    55: "fa-solid fa-cloud-showers-heavy",
+    61: "fa-solid fa-cloud-rain",
+    63: "fa-solid fa-cloud-rain",
+    65: "fa-solid fa-cloud-showers-heavy",
+    71: "fa-solid fa-snowflake",
+    80: "fa-solid fa-cloud-sun-rain",
+    81: "fa-solid fa-cloud-sun-rain",
+    82: "fa-solid fa-cloud-showers-heavy",
+    95: "fa-solid fa-cloud-bolt"
 };
 
 const weatherText = {
